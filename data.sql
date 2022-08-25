@@ -15,7 +15,7 @@ VALUES ('White');
 INSERT INTO [Address] (CustomerId, AddressLine, AddressLine2, AddressType, City, PostalCode, [State], Country)
 VALUES (1, 'First line', 'Second line', 'Shipping', 'Ottawa', '123456', 'Ontario', 'Canada')
 
-INSERT INTO Note(Note, CustomerId)
+INSERT INTO Note (Note, CustomerId)
 VALUES ('Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.', 1);
 
 
